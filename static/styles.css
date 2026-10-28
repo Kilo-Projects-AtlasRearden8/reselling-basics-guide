@@ -1,0 +1,197 @@
+/* Reselling Basics — static site styles */
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #555555;
+  --line: #dddddd;
+  --accent: #0b6ef7;
+  --accent-hover: #0a5bd3;
+}
+
+* { box-sizing: border-box; }
+
+html { line-height: 1.5; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a { color: var(--accent); text-decoration: underline; }
+a:hover { color: var(--accent-hover); }
+
+/* ---------- Header ---------- */
+.site-header {
+  background: #f4f6f8;
+  border-bottom: 1px solid var(--line);
+  padding: 1.5rem 2rem;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-header .credit {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* ---------- Navigation ---------- */
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.nav a {
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.nav a:hover { background: #f4f6f8; border-color: var(--accent); }
+.nav a.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ---------- Headings ---------- */
+h1 { font-size: 1.75rem; margin: 0 0 0.5rem 0; }
+h2 { font-size: 1.35rem; margin: 2rem 0 0.75rem 0; border-bottom: 1px solid var(--line); padding-bottom: 0.35rem; }
+h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem 0; }
+p { margin: 0 0 1rem 0; }
+ul, ol { margin: 0 0 1rem 1.25rem; padding: 0; }
+li { margin-bottom: 0.35rem; }
+hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
+
+/* ---------- Cards ---------- */
+.card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+}
+
+.card h3 { margin-top: 0; }
+.card p:last-child { margin-bottom: 0; }
+
+/* ---------- Boxes ---------- */
+.callout {
+  border-left: 4px solid var(--accent);
+  background: #f4f6f8;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.callout p:last-child { margin-bottom: 0; }
+.warn { border-left-color: #b3541e; background: #fbecdf; }
+
+/* ---------- Tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid var(--line); padding: 0.5rem 0.75rem; text-align: left; font-size: 0.95rem; }
+th { background: #f4f6f8; font-weight: 600; }
+
+/* ---------- Forms (worksheet/checklist) ---------- */
+.blank { display: inline-block; width: 160px; border-bottom: 1px solid var(--text); }
+.blank-sm { display: inline-block; width: 90px; border-bottom: 1px solid var(--text); }
+
+.checkbox-group { margin: 0.5rem 0; }
+.checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+.checkbox-group input { margin-top: 0.15rem; }
+
+.section-title {
+  background: #f4f6f8;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+  margin: 1.25rem 0 0.5rem 0;
+}
+
+.page-break { page-break-before: always; }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 2rem;
+}
+
+/* ---------- Print ---------- */
+@media print {
+  body { background: #ffffff; color: #000; }
+  .site-header, .nav, .site-footer, a { display: none !important; }
+  .card, .callout { border: 1px solid #000; box-shadow: none; }
+  .blank, .blank-sm { border-bottom: 1px solid #000; }
+  .page-break { page-break-before: always; }
+  a { text-decoration: none; color: #000; }
+  h2 { page-break-after: avoid; }
+  table { page-break-inside: auto; }
+  tr { page-break-inside: avoid; }
+}
+
+/* ---------- Home grid ---------- */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.home-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: var(--text);
+  display: block;
+}
+
+.home-card:hover { border-color: var(--accent); background: #f4f6f8; }
+.home-card h3 { margin: 0 0 0.5rem 0; font-size: 1.1rem; }
+.home-card p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+
+/* ---------- Steps ---------- */
+.steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0; }
+.steps li { counter-increment: step; margin-bottom: 1rem; padding-left: 2.5rem; position: relative; }
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 1rem;
+}
