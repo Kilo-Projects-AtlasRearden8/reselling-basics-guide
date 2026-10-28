@@ -14,7 +14,7 @@ Reselling (also called flipping) means buying something at one price and selling
 This manual walks you through the whole process, step by step:
 
 1. Finding items to flip
-2. Writing listings
+2. Writing listings that sell
 3. Pricing for profit
 4. Shipping supplies and packing
 5. eBay and Amazon fees
@@ -24,7 +24,33 @@ Print the checklist and worksheet at the end and keep them by your workspace.
 
 ---
 
-## 1. Finding items to flip
+## 0. Before you list: set up your seller accounts
+
+You need a place to sell. Pick one platform to start — eBay or Amazon — and add the other later.
+
+### eBay
+
+1. Create a free eBay account at ebay.com.
+2. Add a payment method (PayPal or a bank account) so eBay can pay you.
+3. Review eBay's seller fees and prohibited items list before you list anything.
+4. Start as an individual seller. You can open an eBay Store later if your sales justify it.
+
+### Amazon
+
+1. Create a seller account at sellercentral.amazon.com.
+2. Choose the **Individual plan** ($0.99 per item sold) if you expect fewer than about 40 sales a month, or the **Professional plan** ($39.99/month) if you expect more.
+3. Provide your bank account and tax information so Amazon can pay you.
+4. Review Amazon's referral fees and category restrictions before you list.
+
+### Either way
+
+- Use an email address you check regularly.
+- Have a bank account ready for payouts.
+- Do not list anything until you have read that platform's current fee and policy pages — they change.
+
+---
+
+## 2. Finding items to flip
 
 Start with what you already know. If you know clothes, sell clothes. If you know books, sell books. Familiar categories help you spot a good deal quickly.
 
@@ -60,7 +86,7 @@ Before you buy, search completed sales on eBay (filter: Sold listings) and curre
 
 ---
 
-## 2. Writing listings
+## 3. Writing listings that sell
 
 A good listing answers every question a buyer might have before they ask.
 
@@ -107,7 +133,7 @@ Use words a buyer would search for. If you are selling a coffee maker, include "
 
 ---
 
-## 3. Pricing for profit
+## 4. Pricing for profit
 
 Price = what you sell for minus what you spend. Profit is what is left.
 
@@ -139,7 +165,7 @@ A $10 item that costs $3 to ship and $1 in fees leaves $6 profit — before taxe
 
 ---
 
-## 4. Shipping supplies and packing
+## 5. Shipping supplies and packing
 
 Good packing protects your item and your feedback score.
 
@@ -176,7 +202,7 @@ Always ship with tracking. Never ship without it.
 
 ---
 
-## 5. eBay and Amazon fees
+## 6. eBay and Amazon fees
 
 Both platforms take a cut of every sale. Know the numbers before you price.
 
@@ -211,7 +237,7 @@ You sell a $30 item with $6 shipping on eBay:
 
 ---
 
-## 6. Record keeping
+## 7. Record keeping
 
 Track every purchase and every sale. You need this for taxes and to know if you are actually making money.
 
@@ -239,6 +265,22 @@ For each item:
 ### Taxes
 
 Money you make from reselling may be taxable income. Keep receipts and records, and talk to a tax professional about what you owe. This guide is education only, not tax advice.
+
+---
+
+## 8. Your first 7 days
+
+A simple week-by-week plan so you do not get overwhelmed.
+
+**Day 1:** Set up your seller account (eBay or Amazon). Read that platform's fee and policy pages.
+**Day 2:** Look through your own home. Pick 3–5 items you no longer use and photograph them.
+**Day 3:** Research those items on sold listings. Decide sale prices using the profit formula.
+**Day 4:** List your first 3 items. Use the listing checklist for each one.
+**Day 5:** Source 5–10 more items from a thrift store or garage sale. Research before you buy.
+**Day 6:** Pack and ship anything that sold. Update your record-keeping sheet.
+**Day 7:** Review your profit worksheet. Decide what to keep doing and what to change.
+
+If you sell nothing in week one, that is normal. Keep listing and researching — feedback and sales build with time.
 
 ---
 
